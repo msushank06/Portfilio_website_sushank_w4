@@ -177,8 +177,12 @@
                     studying and developing.
                 </p>
 
-
-                <div class="image-slider" data-slider data-autoplay="false" aria-roledescription="carousel" aria-label="Technology topics">
+                <div class="image-slider"
+                    data-slider
+                    data-autoplay="false"
+                    role="region"
+                    aria-roledescription="carousel"
+                    aria-label="Technology topics">
 
                     <div class="slider-viewport">
 
@@ -193,7 +197,7 @@
                                 </div>
                             </article>
 
-                            <article class="slide is-active" aria-hidden="false">
+                            <article class="slide" aria-hidden="true">
                                 <img src="images/networking.jpg" alt="Illustration of connected computers and network nodes" width="1200" height="650">
                                 <div class="slide-caption">
                                     <p class="slide-kicker">01 / Networking</p>
@@ -242,14 +246,15 @@
                     </div>
 
                     <div class="slider-footer">
-                        <div class="slider-dots" data-slider-dots aria-label="Choose a slide"></div>
-                        <p class="slider-status" data-slider-status aria-live="polite">Slide 1 of 4</p>
+                        <div class="slider-dots" data-slider-dots role="group" aria-label="Choose a slide"></div>
+                        <p class="slider-status" data-slider-status aria-live="polite">Slide 1 of 5</p>
                     </div>
 
                 </div>
 
             </div>
 
+        </section>
         <!-- =================================================
              PROJECTS SECTION
              ================================================= -->
